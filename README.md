@@ -10,7 +10,7 @@ You can use this site to generate all SplashLogo Sizes - https://appicon.co/#ima
 - cd ios
 - pod install
 
-- Adicione no componente mais a cima da aplicação:
+- Add this to file on top of aplication: (Ex: app.tsx)
 
 ```
 import SplashScreen from 'react-native-splash-screen'
