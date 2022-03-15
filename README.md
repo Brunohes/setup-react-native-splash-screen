@@ -4,6 +4,8 @@ A document to remember how to properly setup a splash screen in React Native bot
 
 You can use this site to generate all SplashLogo Sizes - https://appicon.co/#image-sets
 
+Note: In case you step into a error that recommendation is upgrade the target sdk, don't do it. On the file app/build.gradle change this line `implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'` to `implementation "androidx.core:core-ktx:1.6.0"`, this should fix the error without the change of the sdk target version.
+
 ## General
 
 - yarn add react-native-splash-screen
